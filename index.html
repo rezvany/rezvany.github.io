@@ -1,0 +1,201 @@
+<html>
+
+<head>
+    <style>
+        .row {
+            display: flex;
+        }
+
+        .column {
+            flex: 33.33%;
+            text-align: center;
+        }
+    </style>
+    <style>
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: rgb(241, 234, 234);
+            color: rgb(32, 10, 231);
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            bottom: 80%;
+            left: 50%;
+            margin-left: -60px;
+            opacity: 0;
+            transition: opacity .1s;
+        }
+
+        .tooltip .tooltiptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+</head>
+
+<body style="background-color: snow;">
+    <div class="row">
+        <div class="column"></div>
+
+        <div class="column">
+            <h1>I'm <span style="font-style: oblique;">Rezvany</span></h1>
+            <table cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td width="20">
+                        <i style="font-size:24px;color:red" class="fa">&#xf0e0;</i>
+                    </td>
+                    <td width="100">rezvany@gmail.com</td>
+                </tr>
+                <tr>
+                    <td width="20"><i style="font-size:24px;color:red" class="fa">&#xf232;</i></td>
+                    <td width="100">+989337779763</td>
+                </tr>
+                <tr>
+                    <td width="20"><i style="font-size:24px;color:red" class="fa">&#xf0ac;</i></td>
+                    <td width="100">https://rezvany.github.io/</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="column"></div>
+
+    </div>
+    <div class="row" style="color: white;background-color: blue;font-size: x-large;font-weight: bold;">
+        About me....
+    </div>
+    <div class="row">
+        <ul>
+            <p>I spent a lot of time on various software and electronics projects and I continue with interest..... </p>
+            <p>I have worked on RFID, IOT, Embedded system, Microcontrollers, web based application projects and a
+                series
+                of other things.</p>
+            <p>Of course, these days I am mostly on the web with the focus on nodejs, reactjs and parse server and I
+                will
+                continue</p>
+        </ul>
+    </div>
+    <div class="row" style="color: white;background-color: blue;font-size: x-large;font-weight: bold;">
+
+    </div>
+    <div class="row" style="color: white;background-color: blue;font-size: x-large;font-weight: bold;">
+        Technologies
+    </div>
+    <div class="row">
+        <ul>
+            <p style="font-style: italic;">I have to explain that my abilities are related to the experiences I had. It
+                may not be very professional
+                in some areas, but I used it to solve my problems.
+            </p>
+            <li>C#, VB.Net</li>
+            <li>Javascript, Nodejs, Reactjs, Parse server</li>
+            <li>C, Codevision, IAR</li>
+            <li>Java, Netbeans for smart card </li>
+            <li>Socket Programming</li>
+            <li>Docker for use in heroku</li>
+            <li>Mysql</li>
+            <li>Git</li>
+            <li>PHP, Zend framework 3</li>
+            <li>Altium designer for PCB</li>
+            <li>Windows CE Builder</li>
+        </ul>
+    </div>
+    <div class="row" style="color: white;background-color: blue;font-size: x-large;font-weight: bold;">
+        Skill
+    </div>
+    <div class="row">
+        <ul>
+            <li>
+                <div class="tooltip">Web developer
+                    <span class="tooltiptext">
+                        <a href="https://reactjs.org/">React JS</a>,<br>
+                        <a href="https://nodejs.org/">Node JS</a>,<br>
+                        <a href="https://parseplatform.org/">Parse server</a>,<br>
+                        <a href="https://framework.zend.com/">Zend framework 3</a></span>
+                </div>
+            </li>
+            <li>
+                <div class="tooltip">Windows application developer
+                    <span class="tooltiptext"><a
+                            href="https://visualstudio.microsoft.com/vs/features/net-development/">Visual studio
+                            .Net</a>,
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="tooltip">RFID developer
+                    <span class="tooltiptext">
+                        <a href="https://www.hidglobal.com/products/readers">HID</a>,<br>
+                        <a href="https://www.acs.com.hk/">ACS</a>,<br>
+                        <a href="http://www.duali.com/en/index.php">Duali</a>,<br>
+                        <a href="http://www.wbe.com.cn/en/card%20reader%20and%20card%20dispenser.html">WBE</a>,<br>
+                        <a href="http://www.marktrace.com/en/">Marktrace</a>,<br>
+
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="tooltip">Socket Programming developer
+                    <span class="tooltiptext">
+                        <a href="https://www.eztcp.com/en/home/">EzTCP</a>,<br>
+                        <a href="http://www.hlktech.net/">Hi-Link</a>,<br>
+                        <a href="https://tibbo.com/">Tibbo</a>,<br>
+                    </span>
+                </div>
+            </li>
+            <li>Serial port programming developer</li>
+            <li>
+                <div class="tooltip">Windows Embedded 6 and CE builder 5
+                    <span class="tooltiptext">
+                        <a href="http://www.armdesigner.com/">Arm Designer</a>,<br>
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="tooltip">Java Card Programming developer
+                    <span class="tooltiptext">
+                        <a href="https://www.javacardos.com">JavaCardOS</a>,<br>
+                        <a href="https://www.oracle.com/java/technologies/java-card-tech.html">JVM</a>,<br>
+                    </span>
+                </div>
+            </li>
+            <li>...And to be continued</li>
+        </ul>
+    </div>
+    <div class="row" style="color: white;background-color: blue;font-size: x-large;font-weight: bold;">
+        Education
+    </div>
+    <div class="row">
+        <ul>
+            <li>Bachelor of Science in Electronics</li>
+            <li>Master of Science in Management Information Systems, All but dissertation (ABD) </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
